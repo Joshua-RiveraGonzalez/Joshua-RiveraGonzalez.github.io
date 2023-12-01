@@ -1,0 +1,66 @@
+body
+{
+	background-color: #000000;
+	height: 100vh;
+	margin:0;
+	width: 100vw;
+}
+header
+{
+	background-color: #008000;
+	height: 15%;
+}
+section
+{
+	background-color: #ffa500;
+	height: 70%;
+}
+footer
+{
+	background-color: #8b4513;
+	height: 15%;
+}
+
+
+table
+{
+	background-color: #9fc5e8;
+	border: 5px solid blue;
+	border-radius: 25pt;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+tr
+{
+	border-radius: 25pt;
+	width: 500px;
+}
+td
+{
+	border: transparent;
+	border-radius: 25pt;
+	visibility: hidden;
+}
+td.button
+{
+	background-color: #cfe2f3ff;
+	border: 2pt solid black;
+	color: black;
+	text-align: center;
+	visibility: visible;
+}
+td.button:hover
+{
+	background-color: #55adfb;
+}
+td#screen
+{
+	background-color: #ffffff;
+	border: 1pt solid black;
+	border-radius: 10pt;
+	color: black;
+	visibility: visible;
+}
