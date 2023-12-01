@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Projects</title>
+		
+		<meta name="description"	content="Three programming projects I am most
+											 proud of">
+		
+		<meta name="author"			content="Joshua Rivera-Gonzalez">
+		
+		<meta name="viewport"		content="width=device-width, initial-scale=1">
+		
+		<link	rel="icon"
+				href="/images/favicon.png"
+				type="image/png">
+				
+		<link	href="format.css"
+				rel="stylesheet"
+				type="text/css">
+		<style>
+			section
+			{
+				background-color: #1E90FF;
+			}
+			table
+			{
+				background-color: #888;
+				font-size: x-large;
+				height: 90%;
+			}
+			thead
+			{
+				height: 10%;
+			}
+			td.demo:hover
+			{
+				background-color: #5cb85c;
+			}
+			#demo1
+			{
+				background-image: url(images/HtmlCalculatorCode.png);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+			#demo2
+			{
+				background-image: url(images/placeholder.svg);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+			#demo1:hover
+			{
+				background-image: url(images/HtmlCalculator.png);
+			}
+			#demo2:hover
+			{
+				background-image: url(images/Portrait2.png);
+			}
+			/* Modal (background) */
+			.modal
+			{
+				display: none;
+				position: fixed;
+				z-index: 1;
+				padding-top: 25vh;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				overflow: auto; /* Enable scroll if needed */
+				background-color: rgba(0,0,0,0.4);
+				animation-name: fadeIn;
+				animation-duration: 1s;
+			}
+	
+			.modal-content
+			{
+				height: 30vh;
+				position: relative;
+				background-color: #fefefe;
+				margin: auto;
+				padding: 0;
+				width: 70%;
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+							0 6px 20px 0 rgba(0,0,0,0.2);
+				animation-name: slideIn;
+				animation-duration: 1s;
+			}
+	
+			/* The Close Button */
+			.close
+			{
+				color: #FFFFFF;
+				float: right;
+				font-size: 28px;
+				font-weight: bold;
+			}
+	
+			.close:hover
+			{
+				color: #000;
+				text-decoration: none;
+				cursor: pointer;
+			}
+	
+			.modal-header
+			{
+				padding: 2vh;
+				background-color: #5cb85c;
+				color: white;
+				height: 23.5%;
+			}
+	
+			.modal-body
+			{
+				padding: 2vh;
+			}
+	
+			/* Add Animation */
+			@keyframes slideIn
+			{
+				from {top: -300px; opacity: 0}
+				to {top: 0; opacity: 1}
+			}
+	
+			@keyframes fadeIn
+			{
+				from {opacity: 0} 
+				to {opacity: 1}
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<header id="navbox">
+				<nav class="navbar">
+					<a href="/occProject/index.html">Home</a>
+					<a class="active">Projects</a>
+					<a href="/occProject/contact.html">Contact</a>
+					<a href="/occProject/Snake/snake.html"
+					   target="_blank"
+					   title="Just here if you want to play snake">Snake</a>
+				</nav>
+		</header>
+		<section id="myModal" class="modal"><!--change to main-->
+			<section class="modal-content">
+				<header class="modal-header">
+					<span class="close">&times;</span>
+					<h2>About this page</h2>
+				</header>
+				<article class="modal-body">
+					<p>
+						Three programming projects I am most proud of are listed
+						on this page.
+					</p>
+					<br>
+					<p>
+						Under the <b>Class &amp; Project</b> column is the name
+						of the class and project name for said class.
+					</p>
+					<br>
+					<p>
+						Under the <b>Project Description</b> column are the
+						descriptions of what a project was.
+					</p>
+					<br>
+					<p>
+						Under the <b>Project "Demo"</b> column, screenshots of
+						the code behind a project will be displayed. By hovering
+						the cursor over one of the three "demos," the image will
+						change to the running program. By clicking on it, you can
+						get a better view of the code and view a gif of the
+						program functioning.
+					</p>
+				</article>
+			</section>
+			
+		</section>
+		<table>
+			<thead>
+				<tr>
+					<th>Class &amp; Project</th>
+					<th class="center">Project Description</th>
+					<th>Project "Demo"</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Technical school<br><br>Unfinished calculator project</td>
+					<td class="center">
+						While unfinished, I still managed to get most of the
+						functions working properly on my own, and aside from a
+						few functions not being programmed in or working as
+						intended, it works perfectly as a normal calculator.
+					</td>
+					<td class="demo" id="demo1">
+						<a href="/occProject/Calculator/calculator.html">
+							View project
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						OCC; CIS-1500 - Intro to Programming (Java)<br><br>
+						Opening window with functions through Java
+					</td>
+					<td class="center">
+						While it was not the only goal of the assignment, nor
+						was it the primary goal that the project was for, I am
+						still happy the it ended up working correctly.
+					</td>
+					<td class="demo" id="demo2">	</td>
+				</tr>
+				<tr>
+					<td>OCC; CIS-1420 - HTML5 Programming<br><br>This website</td>
+					<td class="center">
+						This website is the most complex and complete project I
+						have ever made, and I am incredibly happy with how it
+						turned out. I would not have been able to make this if it
+						wasn't for the people who helped me get this far.<br>
+						Thank you all.
+					</td>
+					<td class="demo">You're looking right at it!</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<script>
+			/**
+			 * A pop up box that contains text and other elements
+			 * This retrieves the modal
+			 */
+			var modal = document.getElementById("myModal");
+			
+			/**
+			 * Retrieves the span element that closes the modal
+			 */
+			var closeSpan = document.getElementsByClassName("close")[0];
+			
+			/**
+			 * Closes the modal when the user clicks on the x
+			 */
+			closeSpan.onclick = function() {
+				modal.style.display = "none";
+			};
+			
+			/**
+			 * Closes the modal when the user clicks anywhere outside of the modal
+			 */
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			};
+			
+			/**
+			 * Loads the modal when the webpage loads 
+			 */
+			document.body.onload = function() {loadModal();};
+			
+			function loadModal() {
+				modal.style.display = "block";
+			}
+		</script>
+		
+	</body>
+</html>
+<!--e-->

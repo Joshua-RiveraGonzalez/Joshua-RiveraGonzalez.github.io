@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+		
+		<meta name="description"	content="Home page">
+		
+		<meta name="author"			content="Joshua Rivera-Gonzalez">
+		
+		<meta name="viewport"		content="width=device-width, initial-scale=1">
+		
+		<link	rel="icon"
+				href="/images/favicon.png"
+				type="image/png">
+				
+		<link	charset="utf-8"
+				href="format.css"
+				rel="stylesheet"
+				type="text/css">
+		<style>
+			aside#AboutMeImgSection{
+				background-color: #666;
+				float: left;
+				width: 35%;
+				height: 100%;
+				align-items: center;
+				justify-content: center;
+			}
+			img{
+				width:100%;
+				height:100%;
+				object-fit:contain;
+			}
+			section#AboutMeText{
+				background-color: #9c9c9c;
+				float: left;
+				font-size: 2.5vh;
+				height: 100%;
+				padding: .8%;
+				width: 65%;
+			}
+			.ImgBox{
+				align-items: center;
+				background-color: #808080;
+				border: .5vh solid #000;
+				display: flex;
+				float:left;
+				height: 100%;
+				justify-content: center;
+				width: 33.33%;
+			}
+			.BorderControl1{
+				border-left: .25vh solid #000;
+			}
+			.BorderControl2{
+				border-right: .25vh solid #000;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<section id="navbox">
+				<nav class="navbar">
+					<a class="active">Home</a>
+					<a href="/occProject/projects.html">Projects</a>
+					<a href="/occProject/contact.html">Contact</a>
+					<a href="/occProject/Snake/snake.html"
+					   target="_blank"
+					   title="Just here if you want to play snake">Snake</a>
+				</nav>
+			</section>
+		</header>
+		
+		<section><!--change to "main"-->
+			<aside id="AboutMeImgSection">
+				<img alt="Picture of Joshua"
+					 src="images/Portrait1.png">
+			</aside>
+			<section id="AboutMeText">
+				<h3>About Me</h3>
+				<p>
+					Hi, my name is Joshua Rivera-Gonzalez. I am a "first year"
+					college student aiming for an associate's degree in computer
+					programming.
+				</p>
+				<br>
+				<h3>Favorite sports, movies, books, &amp; TV shows</h3>
+				<ul>
+					<li>I do not have any favorite sports.</li>
+					<li>My favorite movie is <i>Pixels</i>.</li>
+					<li>
+						There are too many books I really enjoyed that I don't
+						remember them.
+					</li>
+					<li>
+						I enjoy several of the<i>
+							<a href="https://scoobydoocast.com">Scooby Doo</a></i>
+						cartoons, such as <i>Be Cool, Scooby Doo!</i>
+					</li>
+				</ul>
+				
+			</section>
+		</section>
+		
+		<footer>
+			<article class="ImgBox BorderControl2"
+					 id="BonusImage1">
+				<img alt="Official HTML and CSS certificate"
+					 src="images/JRG_HTML&CSS_Certification.jpg">
+			</article>
+			<article class="ImgBox BorderControl1 BorderControl2">
+				<img alt="Another picture of Joshua"
+					 src="images/Portrait2.png">
+			</article>
+			<article class="ImgBox BorderControl1"
+					 id="BonusImage2">
+				<img alt="Official JavaScript certification"
+					 src="images/JRG_JavaScript_Certification.jpg">
+			</article>
+
+		</footer>
+	
+	</body>
+</html>
+<!--e-->
